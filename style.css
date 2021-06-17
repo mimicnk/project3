@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+* {
+  /*border: solid 1px black;*/
+  letter-spacing: 2px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.container {
+  padding-top: 50px;
+}
+.s1 {
+  padding-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 80px;
+  text-align:center;
+  line-height:60px;
+  background-color: #D7C4BB;
+  padding-bottom:150px;
+}
+.box {
+  width: 500px;
+  background-color: #C46243;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  padding-bottom:10px;
+  border-radius:20%;
+
+}
+.box:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.5);
+  transform: translate(-5px, -5px);
+}
+/*.box:hover .top{
+  height:250px;
+}*/
+.top {
+  background-image: url(https://github.com/mimicnk/imgall/blob/gh-pages/Open%20Peeps%20-%20Bust.png?raw=true);
+  backgrhttps://github.com/mimicnk/imgall/blob/gh-pages/Open%20Peeps%20-%20Bust.png?raw=trueound-position: center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  transition: 0.5s;
+}
+/*.top .tag{
+  width:25px;
+  height:50px;
+  background-color: #5bffe1;
+  float:right;
+  margin-right:20px;
+}*/
+.top .name{
+  position:absolute;
+  left:0px;
+  bottom:-10px;
+  padding: 10px 20px;
+  letter-spacing:2px;
+  color:white;
+  font-size:24px;
+  font-weight:300;
+  background:linear-gradient(transparent 0%,#C46243 100%);
+  width:100%;
+  padding-top:30px;
+  padding-bottom:20px;
+}
+.s1 .ul{
+  background-color: #d6bb94;
+  font-weight:bold;
+}
+h1{
+  text-align:center;
+  padding-top:50px;
+  font-weight:bold;
+}
+.buttom2 .btn{
+  background-color: #BF6766;
+  display: inline-block;
+  padding: 10px 25px;
+  letter-spacing: 2px;
+  border-radius:55px;
+}
+.buttom2 a{
+  color: initial;
+  text-decoration: initial;
+  color:white;
+}
+.buttom2 a:hover{
+  color:black;
+}
+.buttom2{
+  padding:10px 20px 20px;
+  border-radius:20%;
+}
+
+.btnWebsite {
+  background-color: #BF6766;
+  color: white;
+  transition: 0.5s;
+}
+.btnWebsite:hover {
+  background-color:#F19483;
+}
+.buttom2{
+  padding-top:60px;
+  text-align:center;
+}
+h3{
+  padding-top:30px;
+  text-align:center;
+}
+
+.title{
+  padding-bottom:50px;
+}
+.video{
+  padding-top:100px;
+  padding-bottom:80px;
+
+}
+.card-body h4{
+  text-align:center;
+  padding-bottom:30px;
+}
+.card .card-img-top {
+padding-bottom:50px;
+}
+.word
+{
+ padding-top:30px;
+ text-align:center; 
+ padding-bottom:80px;
+}
+section{
+  padding-top:30px;
+  margin:0px;
+  padding:0px;
+}
+section#s2{
+  background-color:rgba(177,150,147,0.5);
+  padding-top:20px;
+  padding-bottom:80px;
+}
+section#s2 h1{
+  color:#fffff;
+  font-weight:bolder;
+  font-size:40px;
+}
+section#s3{
+  background-color: rgba(185,136,125,0.4);
+  padding-top:20px;
+  padding-bottom:80px;
+}
+section#s3 h1{
+  color:#fffff;
+  font-weight:bolder;
+  font-size:40px;
+}
+section#s4{
+  background-color: rgba(196,98,67,0.2);
+  padding-top:20px;
+  padding-bottom:80px;
+}
+section#s4 h1{
+  color:#fffff;
+  font-weight:bolder;
+  font-size:40px;
+  padding-bottom:30px;
+}
+section#s4 .card-body{
+  border-radius:50px;
+  background-color: rgba(227,145,110,0.5);
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  border-radius:20px;
+}
+section#s4 img{
+  background-color: rgba(227,145,110,0.3);
+}
+section#s4 h3{
+  color:#ffffff;
+  font-weight:bold;
+  font-size:25px;
+  padding:10px 20px 20px;
+  background-color: #BF6766;
+  border-radius:20px;
+}
+section#s5{
+  background-color: rgba(220,159,180,0.3);
+  padding-top:20px;
+}
+section#s5 h1{
+  color:#fffff;
+  font-weight:bold;
+  font-size:40px;
+}
+.col-sm-6{
+  padding-bottom:30px;
+}
+section#s0{
+  background-color: rgba(225,166,161,0.5);
+  padding-bottom:80px;
+}
+section#s0 h1{
+  font-family: 'Dancing Script', cursive;
+  padding-top:150px;
+  padding-bottom:250px;
+  position:relative;
+  top:225px;
+  left:13px;
+  font-size:60px;
+  letter-spacing:3px;
+}
+section#s1 .box .h2{
+  font-weight:bold;
+}
+section#s0 .circle1{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  background-color: rgba(232, 165, 37,0.5);
+  animation-name: circle1;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  z-index:-2;
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  
+}
+@keyframes circle1 {
+  0% {
+       opacity:0%;
+       right:0%;
+       transform:scale(3);
+  }
+  30% {
+    
+  }
+  70% {
+    
+  }
+  100% {
+       opacity:100%;
+       right:30%;
+    
+  }
+}
+section#s0 .circle2{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  background-color: rgba(163, 80, 80,0.5);
+  animation-name: circle2;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  z-index:-2;
+  position: absolute;
+  bottom: 15%;
+  left: 0%;
+}
+@keyframes circle2 {
+  0% {
+    opacity:0%;
+    left:0%;
+    transform:scale(3);
+  }
+  30% {
+    
+  }
+  70% {
+
+  }
+  100% {
+    left:30%;
+    opacity:100%;
+
+  }
+}
+  
+section#s0{
+  padding-bottom:400px;
+  
+}
+
+section#s0 a{
+  color:black;
+}
+
+section#s0 a:hover{
+  color:rgba(231,148,96);
+}
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #72a7a8;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
